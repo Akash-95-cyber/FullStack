@@ -1,15 +1,15 @@
 array = [10, 20, 30, 40, 50, "KEC", true]
-//console.log(array);
+console.log(array);
 
-// for(var a in array)
-// {
-//     console.log(a);
-// }
+for(var a in array)
+{
+    console.log(a);
+}
 
-// for(var b in array)
-// {
-//     console.log(array[b]);
-// }
+for(var b in array)
+{
+    console.log(array[b]);
+}
 
 var var1 = 10
 var var2 = 20
