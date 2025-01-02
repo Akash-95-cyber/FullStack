@@ -1,0 +1,17 @@
+{
+  "name": "kecreactbackend",
+  "version": "1.0.0",
+  "description": "This is Backend repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jai Akash Venkateswaran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "kecreactbackend": "file:",
+    "nodemon": "^3.1.9"
+  }
+}
