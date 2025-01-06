@@ -43,7 +43,7 @@ app.get("/getsignup", async (req, res) => {
   try {
     var allSignupRecords = await User.find();
     res.json(allSignupRecords);
-    console.log("Fetched Successfully");
+    console.log("User Added Successfully");
   } catch (err) {
     console.log("Cannot able to read the records");
     console.log(err);
